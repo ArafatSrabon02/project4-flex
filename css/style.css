@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Patrick Hand', cursive;
+	font-size: 18px;
+}
+.banner{
+	background-image: url(../images/education.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #000000ad;
+	background-blend-mode: color;
+}
+header{
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 15px;
+}
+.social-list{
+    width: 20%;
+    float: left;
+}
+.social-list ul{
+    list-style-type: none;
+}
+.social-list ul li{
+    padding: 0 10px;
+    float: left;
+}
+.social-list ul li a{
+    font-size: 25px;
+    color: #ffffffa8;
+}
+.social-list ul li a:hover{
+	color: #f98f27;
+}
+.logo{
+    width: 20%;
+    float: left;
+    padding: 0 200px;
+}
+.logo img{
+}
+.number{
+    width: 20%;
+    float: right;
+    font-size: 22px;
+    color: #ffffffa8;
+}
+.number i:hover{
+	color: #f98f27;
+}
+.menubar{
+    padding: 20px;
+    background-color: #607d8b85;
+    border-radius: 50px;
+}
+.menubar ul{
+    text-align: center;
+}
+.menubar ul li{
+	display: inline-block;
+}
+.menubar ul li a{
+    color: #ffffffa8;
+    padding: 0 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+}
+.menubar ul li a:hover{
+	color: #f98f27;
+}
+.content{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
+}
+.content h3{font-size: 35px;color: #f98f27;}
+.content h1{
+    color: #ffffff;
+    font-size: 62px;
+}
+.content a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 15px 30px;
+	border: 2px solid #18295a00;
+	border-radius: 50px;
+	display: inline-block;
+	margin-top: 40px;
+	background-color: #568e48;}
+.content a:hover{
+	background-color: #f98f27;
+}
+.blog{
+    text-align: center;
+    padding-top: 60px;
+}
+.blog img{
+    border-radius: 110px;
+}
+.blog .pic1{
+    width: 25%;
+    float: left;
+}
+.blog .pic1 h1
+{
+	font-size: 25px;
+	max-width: 200px;
+	margin: 0 auto;
+	padding: 10px 0;
+	}
+.blog .pic1 p{
+    font-size: 15px;
+    max-width: 200px;
+    margin: 0 auto;
+    color: #626465;
+}
+.blog .pic2{
+    width: 25%;
+    float: left;
+}
+.blog .pic2 h1{
+    font-size: 25px;
+    max-width: 230px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.blog .pic2 p{
+    font-size: 15px;
+    max-width: 200px;
+    margin: 0 auto;
+    color: #626465;
+}
+.blog .pic3{
+    width: 25%;
+    float: left;
+}
+.blog .pic3 h1{
+    font-size: 25px;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.blog .pic3 p{
+    font-size: 15px;
+    max-width: 200px;
+    margin: 0 auto;
+    color: #626465;
+}
+.blog .pic4{
+    width: 25%;
+    float: left;
+}
+.blog .pic4 h1{
+    font-size: 25px;
+    max-width: 255px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.blog .pic4 p{
+    font-size: 15px;
+    max-width: 200px;
+    margin: 0 auto;
+    color: #626465;
+}
+.quotes{
+    padding: 100px 0;
+}
+.row{
+	display: flex;
+	flex: wrap;
+}
+.big-pic{padding-right: 100px;}
+.big-pic img{}
+.paragraph{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.paragraph h1{
+	padding-bottom: 10px;
+	font-size: 45px;
+	line-height: 55px;
+	color: #333333;
+	}
+.paragraph p{
+    line-height: 25px;
+    color: #919294;
+}
+.paragraph a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 15px 30px;
+    border: 2px solid #18295a00;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #568e48;
+}
+.paragraph a:hover{
+	background-color: #f98f27;
+}
+.content2{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 70%;
+}
+.content2 h1{
+    padding: 20px 0;
+    color: #333333;
+    font-size: 50px;
+}
+.content2 p{
+    line-height: 24px;
+    font-size: 19px;
+    color: #333333;
+}
+.pictures{padding-top: 40px;}
+.pictures img{
+    width: 30%;
+    padding: 15px;
+}
+.banner2{
+	background-image: url(../images/Capture.PNG);
+	height: 100vh;
+	background-size: cover;
+	background-color: #00000096;
+	background-blend-mode: color;
+	margin-top: 100px;
+}
+.content3{
+    width: 50%;
+    float: right;
+    padding: 100px 0;
+}
+.content3 h2{
+    color: white;
+    font-size: 30px;
+}
+.content3 h1{
+    line-height: 70px;
+    color: white;
+    font-size: 75px;
+    padding-bottom: 20px;
+}
+.content3 span{
+    padding: 30px 0px;
+    color: #f98f27;
+}
+.content3 p{
+    color: white;
+    font-size: 27px;
+    padding-top: 20px;
+}
+.signup-form{
+    width: 50%;
+    float: left;
+}
+.signup-form form{
+    margin-bottom: 10px;
+    background-color: #445865ba;
+    width: 350px;
+    box-sizing: border-box;
+    padding: 45px 35px 30px;
+    text-align: center;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 5px 5px 8px black;
+}
+.signup-form form label{
+	display: block;
+	padding-bottom: 15px;
+	font-size: 22px;
+	color: #f98f27;
+	}
+.signup-form form input{
+	padding: 5px 15px;
+	box-sizing: border-box;
+	font-size: 20px;
+	color: #555;
+	margin-bottom: 15px;
+	border-radius: 30px;
+}
+
+form a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 15px 30px;
+	border: 2px solid #18295a00;
+	border-radius: 50px;
+	display: inline-block;
+	margin-top: 40px;
+	background-color: #568e48;}
+form a:hover{
+	background-color: #f98f27;
+}
+.new-blog{
+    padding-top: 50px;
+}
+.heading{}
+.heading h1{
+    text-align: center;
+    font-size: 60px;
+    color: #333333;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.flex .bar{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.flex .bar i{
+    text-align: center;
+    font-size: 25px;
+    float: left;
+    width: 10%;
+    border-radius: 60px;
+    padding: 15px;
+    background-color: #18bc6d;
+    justify-content: center;
+    color: white;
+    height: 20%;
+}
+.para{
+    float: right;
+    width: 70%;
+}
+.para h1{
+	font-size: 25px;
+	color: #333333;}
+.para p{
+    font-size: 15px;
+    color: #3333339c;
+}
+.para p:hover{
+    color: #333333;
+}
+.footer{
+	width: 100%;
+	background-color: #304e71;
+	padding: 15px 0;
+	margin-top: 50px;
+}
+.footer .footer-img{
+    float: left;
+    width: 5%;
+}
+.footer .footer-img img{width: 25px;}
+
+.footer .copyright{
+    float: left;
+    width: 47.5%;
+    color: #ffffffcc;
+}
+.footer .copyright span{
+}
+.footer .copyright span i{}
+.footer .copyright span a{
+    color: #ffffffcc;
+}
+.menubar2{
+    float: right;
+    width: 47.5%;
+}
+.menubar2 ul{
+    list-style: none;
+}
+.menubar2 ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.menubar2 ul li a{
+    text-decoration: none;
+    color: #ffffffcc;
+}
